@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RequestMapping("proyecto")//localhost:8080/proyecto/
-//@CrossOrigin(origins="http://portfoliocelinajure.web.app")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="http://portfoliocelinajure.web.app")
+//@CrossOrigin(origins="http://localhost:4200")
 @RestController
 public class ProyectoC { 
     

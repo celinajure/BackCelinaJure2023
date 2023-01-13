@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("habilidad")//localhost:8080/habilidad/
-//@CrossOrigin(origins="http://portfoliocelinajure.web.app")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="http://portfoliocelinajure.web.app")
+//@CrossOrigin(origins="http://localhost:4200")
 @RestController
 public class HabilidadC {   
     @Autowired
