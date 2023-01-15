@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RequestMapping("red")//localhost:8080/red/
-@CrossOrigin(origins="http://portfoliocelinajure.web.app")
+@CrossOrigin(origins="https://portfoliocelinajure.web.app/")
 //@CrossOrigin(origins="http://localhost:4200")
 @RestController
 public class RedC {
